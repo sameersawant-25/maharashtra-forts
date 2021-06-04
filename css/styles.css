@@ -1,0 +1,193 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+} 
+
+h1{
+    text-align: center;
+    font-size: 3rem;;
+    letter-spacing: -.05em;
+    line-height: 1.2em;
+    font-family: 'Revalia', cursive;
+}
+
+hr{
+    border: dotted #EAF6F6;
+    opacity: 0.3;
+    border-bottom: none;
+    width: 4%;
+    margin: 15px auto;
+    border-width: 4px;
+}
+
+.section-title{
+    padding: 4% 0 2%;
+}
+/*navigation-bar*/
+
+.navbar-collapse{
+    margin-top: 3.5%;
+    margin-right: 10%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/*Home*/
+#home {
+    background: url(../images/Forts-in-Maharashtra.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: darkgrey;
+    background-blend-mode: multiply;
+}
+
+.home-info{
+    text-align: center;
+    padding: 7% 10%;
+    color: white;
+    
+}
+
+.title{
+    color: #fff;
+    font-size: 3.8rem;
+    margin-top: 10%;
+    font-weight: 700;
+}
+
+h4{
+    line-height: 1.5;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter;
+  display: inline-block;
+  position: relative;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+.typewriter::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes typewriter {
+  0%, 100% {
+    width: 0;
+  }
+  20%, 80% {
+    width: 25em;
+  }
+}
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+/*Info section*/
+
+#info{
+    background: url(../images/info-back.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: lightskyblue;
+    background-blend-mode: multiply;
+}
+
+
+/*Contact section*/
+
+#contact{
+    background-color: #4ca1af;
+    text-align: center;
+}
+
+.row{
+    margin: 0 10%;
+}
+
+.col-sm-6{    
+     margin-top: 10%;
+    text-align: center;
+}
+
+.contact-img{
+    border-radius: 100%;
+    width: 200px;
+}
+
+.contact-info{
+    padding: 5%
+}
+
+.col-sm-6 p{
+    text-align: left;
+    font-weight: 900;
+    color: #fff;
+    margin-left: 3%; 
+}
+
+.btn {
+  font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 15px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 1.2px solid;
+  background-color: #3498db;
+    
+  margin: 40px;
+}
+.btn:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+}
+
+
+#login-modal .modal-dialog {
+    width: 400px;
+}
+
+.modal-content{
+   background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*footer*/
+.bottom-container{
+    background-color: lightgray;
+    padding: 20px 0 10px;
+    text-align: center;
+}
+
+.copyright{
+    color: darkcyan;
+    font-size: 0.75rem;
+}
